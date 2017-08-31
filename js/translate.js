@@ -34,7 +34,7 @@ $(document).keyup(function(event){
         var str1 = appid + query + salt +key;
         var sign = MD5(str1);
         $.ajax({
-            url: 'http://api.fanyi.baidu.com/api/trans/vip/translate',
+            url: 'https://api.fanyi.baidu.com/api/trans/vip/translate',
             type: 'get',
             dataType: 'jsonp',
             data: {
@@ -144,6 +144,6 @@ function wordList() {
     }
 }
 function voice(lang,text,spd){
-    var src = "http://fanyi.baidu.com/gettts?lan="+ lang + "&text=" + text + "&spd=" + spd + "&source=web";
+    var src = "https://fanyi.baidu.com/gettts?lan="+ lang + "&text=" + text + "&spd=" + spd + "&source=web";
     $("video").attr('src',src);
 }
