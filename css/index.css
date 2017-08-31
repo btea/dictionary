@@ -1,0 +1,80 @@
+.transform {
+    margin: 1rem;
+}
+.switch{
+    font-size: 15px;
+    font-family: '微软雅黑';
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.switch:hover a{
+    background: #eee;
+    color: white;
+}
+.switch a{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    color: #eee;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+#from,#to{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 70px;
+    height: 30px;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    color: #eeeeee;
+    font-size: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    background: url("../images/adva.png") no-repeat 97%;
+    background-size: 50%;
+}
+.input,.show{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    vertical-align: middle;
+}
+#trans,#translated{
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.pronunciation{
+    width: 50px;
+    height: 20px;
+    background: #eee;
+    color: aqua;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.pronunciation:hover{
+    background: #efefef;
+    color: #6cf;
+}
+
+.addnote{
+    width: 60px;
+    height: 30px;
+    background: #eee;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 auto;
+}
