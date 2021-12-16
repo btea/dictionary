@@ -9,9 +9,9 @@
   "author": "btea",
   "license": "ISC",
   "devDependencies": {
-    "file-loader": "^0.11.2",
-    "url-loader": "^0.5.9",
-    "webpack": "^3.5.5"
+    "file-loader": "0.11.2",
+    "url-loader": "0.5.9",
+    "webpack": "3.12.0"
   },
   "dependencies": {
     "babel-loader": "^7.1.2"
